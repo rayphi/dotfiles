@@ -26,5 +26,5 @@ if [ -f ~/.bash_git ]; then
         echo "fi";
 } >> ~/.bash_git
 else
-	ln -s ${PWD}/.bash_aliases ~/.bash_aliases
+	ln -s ${PWD}/.bash_git ~/.bash_git
 fi
