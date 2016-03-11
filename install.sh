@@ -31,3 +31,5 @@ if [ -f ~/.bash_git ]; then
 else
         ln -s ${DIR}/.bash_git ~/.bash_git
 fi
+
+exec bash
