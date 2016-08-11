@@ -31,5 +31,8 @@ if [ -f ~/.bash_git ]; then
 else
         ln -s ${DIR}/.bash_git ~/.bash_git
 fi
+cp -r ${DIR}/.vim ~/.vim
+cp ${DIR}/.vimrc ~/.vimrc
+
 
 exec bash
